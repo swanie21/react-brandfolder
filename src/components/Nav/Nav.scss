@@ -32,7 +32,7 @@
         text-transform: uppercase;
 
         &:before {
-          background: $blue-light;
+          background: $blue;
           bottom: 0;
           content: '';
           height: 2px;
@@ -110,7 +110,7 @@
       margin-bottom: 20px;
 
       &:before {
-        background: $blue-light;
+        background: $blue;
         bottom: 0;
         content: '';
         height: 2px;
@@ -129,7 +129,7 @@
   }
 
   &_span {
-    background: $blue-light;
+    background: $blue;
     display: block;
     height: 4px;
     margin: 0 5px 5px 0;

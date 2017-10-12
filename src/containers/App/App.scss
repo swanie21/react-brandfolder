@@ -1,55 +1,6 @@
 @import '../../styles/_variables';
-@import '../../styles/_fonts';
-
-.hero {
-  align-items: center;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url('https://img.youtube.com/vi/hmnHDwX9kZk/maxresdefault.jpg') no-repeat scroll center;
-  display: flex;
-  height: 700px;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-
-  @media screen and ($L) {
-    background-attachment: fixed;
-    height: 100vh;
-  }
-
-  &__content {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 60px;
-
-    &-title {
-      color: $white;
-      font-family: $font-lato;
-      font-size: 32px;
-      font-weight: bold;
-      line-height: 1.5;
-      padding: 0 10px;
-      text-align: center;
-      text-shadow: 3px 2px 8px $black-light;
-
-      @media screen and ($M) {
-        font-size: 50px;
-      }
-    }
-
-    &-sub-title {
-      color: $white;
-      font-family: $font-lato;
-      font-size: 20px;
-      line-height: 1.5;
-      margin-top: 15px;
-      padding: 0 20px;
-      text-align: center;
-    }
-  }
-}
 
 .content {
   background-color: $white;
-  height: 500px;
+  height: 600px;
 }
