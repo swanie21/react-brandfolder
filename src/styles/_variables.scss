@@ -1,0 +1,30 @@
+// Color Palette
+$blue: #40d2f6;
+
+$blue-medium: #384650;
+
+$blue-dark: #252C2F;
+
+// lighter blue doesn't match blue in logo
+$blue-light: #66DAF7;
+
+$black: #000;
+
+$black-light: #414042;
+
+$white: #FFF;
+
+$grey-light: #F9F9F9;
+
+$grey-dark: #808080;
+
+
+// Media query breakpoints
+
+$breakpoint-small: 320px;
+$breakpoint-medium: 770px;
+$breakpoint-large: 1025px;
+
+$S: 'min-width:' + $breakpoint-small;
+$M: 'min-width:' + $breakpoint-medium;
+$L: 'min-width:' + $breakpoint-large

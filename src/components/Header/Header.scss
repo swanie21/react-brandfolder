@@ -1,0 +1,21 @@
+@import '../../styles/_variables';
+
+.header {
+  align-items: center;
+  background-color: $blue-dark;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+  @media screen and ($M) {
+    padding: 0 50px;
+  }
+
+  &__logo {
+    width: 200px;
+  }
+}

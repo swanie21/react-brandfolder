@@ -1,0 +1,60 @@
+@import '../../styles/_variables';
+@import '../../styles/_fonts';
+
+.label {
+  color: $white;
+  font-family: $font-lato;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.white {
+  background-color: transparent;
+  border: 2px $white solid;
+  border-radius: 30px;
+  cursor: pointer;
+  line-height: 40px;
+  margin: 0 20px 0 15px;
+  transition: background-color 0.5s ease;
+  width: 120px;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover, &:focus, &:active {
+    background-color: $white;
+
+    .label {
+      color: darken($blue, 10%);
+      font-weight: 900;
+    }
+  }
+}
+
+.blue {
+  background-color: $blue;
+  border: none;
+  border-radius: 30px;
+  color: $white;
+  cursor: pointer;
+  line-height: 40px;
+  margin: 30px 20px 0 15px;
+  padding: 10px 40px;
+  transition: background-color 0.5s ease;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover, &:focus, &:active {
+    background-color: darken($blue, 25%);
+  }
+
+  .label {
+    font-family: $font-lato;
+    font-size: 16px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+  }
+}
